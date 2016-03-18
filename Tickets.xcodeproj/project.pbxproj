@@ -13,6 +13,14 @@
 		F24F687B1C9BDAC100D8A3F9 /* TicketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F687A1C9BDAC100D8A3F9 /* TicketsTests.swift */; };
 		F24F68861C9BDAC100D8A3F9 /* TicketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F68851C9BDAC100D8A3F9 /* TicketsUITests.swift */; };
 		F24F689B1C9BE26800D8A3F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F68951C9BE26800D8A3F9 /* AppDelegate.swift */; };
+		F2AAC39F1C9BE8C400B2CBB7 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC3971C9BE8C400B2CBB7 /* Montserrat-Black.otf */; };
+		F2AAC3A01C9BE8C400B2CBB7 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC3981C9BE8C400B2CBB7 /* Montserrat-Bold.otf */; };
+		F2AAC3A11C9BE8C400B2CBB7 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC3991C9BE8C400B2CBB7 /* Montserrat-ExtraBold.otf */; };
+		F2AAC3A21C9BE8C400B2CBB7 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39A1C9BE8C400B2CBB7 /* Montserrat-Light.otf */; };
+		F2AAC3A31C9BE8C400B2CBB7 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39B1C9BE8C400B2CBB7 /* Montserrat-Regular.otf */; };
+		F2AAC3A41C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39C1C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf */; };
+		F2AAC3A51C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39D1C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf */; };
+		F2AAC3A61C9BE8C400B2CBB7 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39E1C9BE8C400B2CBB7 /* SIL Open Font License.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		F24F68851C9BDAC100D8A3F9 /* TicketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsUITests.swift; sourceTree = "<group>"; };
 		F24F68871C9BDAC100D8A3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24F68951C9BE26800D8A3F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = "<group>"; };
+		F2AAC3971C9BE8C400B2CBB7 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		F2AAC3981C9BE8C400B2CBB7 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		F2AAC3991C9BE8C400B2CBB7 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		F2AAC39A1C9BE8C400B2CBB7 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		F2AAC39B1C9BE8C400B2CBB7 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		F2AAC39C1C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		F2AAC39D1C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
+		F2AAC39E1C9BE8C400B2CBB7 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +141,7 @@
 		F24F68931C9BE26800D8A3F9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F2AAC3961C9BE8C400B2CBB7 /* Montserrat Font */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -176,6 +193,21 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F2AAC3961C9BE8C400B2CBB7 /* Montserrat Font */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAC3971C9BE8C400B2CBB7 /* Montserrat-Black.otf */,
+				F2AAC3981C9BE8C400B2CBB7 /* Montserrat-Bold.otf */,
+				F2AAC3991C9BE8C400B2CBB7 /* Montserrat-ExtraBold.otf */,
+				F2AAC39A1C9BE8C400B2CBB7 /* Montserrat-Light.otf */,
+				F2AAC39B1C9BE8C400B2CBB7 /* Montserrat-Regular.otf */,
+				F2AAC39C1C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf */,
+				F2AAC39D1C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf */,
+				F2AAC39E1C9BE8C400B2CBB7 /* SIL Open Font License.txt */,
+			);
+			path = "Montserrat Font";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +314,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AAC3A11C9BE8C400B2CBB7 /* Montserrat-ExtraBold.otf in Resources */,
+				F2AAC3A61C9BE8C400B2CBB7 /* SIL Open Font License.txt in Resources */,
+				F2AAC3A01C9BE8C400B2CBB7 /* Montserrat-Bold.otf in Resources */,
+				F2AAC39F1C9BE8C400B2CBB7 /* Montserrat-Black.otf in Resources */,
+				F2AAC3A41C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf in Resources */,
+				F2AAC3A51C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf in Resources */,
+				F2AAC3A31C9BE8C400B2CBB7 /* Montserrat-Regular.otf in Resources */,
 				F24F68701C9BDAC100D8A3F9 /* LaunchScreen.storyboard in Resources */,
 				F24F686D1C9BDAC100D8A3F9 /* Assets.xcassets in Resources */,
+				F2AAC3A21C9BE8C400B2CBB7 /* Montserrat-Light.otf in Resources */,
 				F24F686B1C9BDAC100D8A3F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +576,7 @@
 				F24F688C1C9BDAC100D8A3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F24F688D1C9BDAC100D8A3F9 /* Build configuration list for PBXNativeTarget "TicketsTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +585,7 @@
 				F24F688F1C9BDAC100D8A3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F24F68901C9BDAC100D8A3F9 /* Build configuration list for PBXNativeTarget "TicketsUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +594,7 @@
 				F24F68921C9BDAC100D8A3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
