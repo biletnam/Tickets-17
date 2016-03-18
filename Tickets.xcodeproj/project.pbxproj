@@ -23,6 +23,8 @@
 		F2AAC3A51C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39D1C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf */; };
 		F2AAC3A61C9BE8C400B2CBB7 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39E1C9BE8C400B2CBB7 /* SIL Open Font License.txt */; };
 		F2AAC3A91C9BED9900B2CBB7 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AAC3A81C9BED9900B2CBB7 /* SSASideMenu.swift */; };
+		F2AAC3AB1C9BF0F500B2CBB7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AAC3AA1C9BF0F500B2CBB7 /* WelcomeViewController.swift */; };
+		F2AAC3AD1C9BF10A00B2CBB7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AAC3AC1C9BF10A00B2CBB7 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		F2AAC39D1C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
 		F2AAC39E1C9BE8C400B2CBB7 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
 		F2AAC3A81C9BED9900B2CBB7 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		F2AAC3AA1C9BF0F500B2CBB7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F2AAC3AC1C9BF10A00B2CBB7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,8 @@
 		F24F68961C9BE26800D8A3F9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2AAC3AA1C9BF0F500B2CBB7 /* WelcomeViewController.swift */,
+				F2AAC3AC1C9BF10A00B2CBB7 /* MenuViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -435,8 +441,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AAC3AB1C9BF0F500B2CBB7 /* WelcomeViewController.swift in Sources */,
 				F24F689B1C9BE26800D8A3F9 /* AppDelegate.swift in Sources */,
 				F2AAC3A91C9BED9900B2CBB7 /* SSASideMenu.swift in Sources */,
+				F2AAC3AD1C9BF10A00B2CBB7 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
