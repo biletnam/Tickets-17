@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1C17EA67A9CAC492EFD040F6 /* Pods_Tickets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343CF76A2D0C73767C03F33B /* Pods_Tickets.framework */; };
-		F24F686B1C9BDAC100D8A3F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24F68691C9BDAC100D8A3F9 /* Main.storyboard */; };
 		F24F686D1C9BDAC100D8A3F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24F686C1C9BDAC100D8A3F9 /* Assets.xcassets */; };
 		F24F68701C9BDAC100D8A3F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24F686E1C9BDAC100D8A3F9 /* LaunchScreen.storyboard */; };
 		F24F687B1C9BDAC100D8A3F9 /* TicketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F687A1C9BDAC100D8A3F9 /* TicketsTests.swift */; };
@@ -25,6 +24,7 @@
 		F2AAC3A91C9BED9900B2CBB7 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AAC3A81C9BED9900B2CBB7 /* SSASideMenu.swift */; };
 		F2AAC3AB1C9BF0F500B2CBB7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AAC3AA1C9BF0F500B2CBB7 /* WelcomeViewController.swift */; };
 		F2AAC3AD1C9BF10A00B2CBB7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AAC3AC1C9BF10A00B2CBB7 /* MenuViewController.swift */; };
+		F2AAC3AF1C9BF16200B2CBB7 /* Tickets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC3AE1C9BF16200B2CBB7 /* Tickets.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		610FE1896424D100FE0808AD /* Pods-Tickets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tickets.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tickets/Pods-Tickets.release.xcconfig"; sourceTree = "<group>"; };
 		C296DD5B28CF8C3E9F66A45F /* Pods-Tickets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tickets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tickets/Pods-Tickets.debug.xcconfig"; sourceTree = "<group>"; };
 		F24F68621C9BDAC100D8A3F9 /* Tickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F24F686A1C9BDAC100D8A3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F24F686C1C9BDAC100D8A3F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24F686F1C9BDAC100D8A3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F24F68711C9BDAC100D8A3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		F2AAC3A81C9BED9900B2CBB7 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
 		F2AAC3AA1C9BF0F500B2CBB7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F2AAC3AC1C9BF10A00B2CBB7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F2AAC3AE1C9BF16200B2CBB7 /* Tickets.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tickets.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +179,7 @@
 		F24F68941C9BE26800D8A3F9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F24F68691C9BDAC100D8A3F9 /* Main.storyboard */,
+				F2AAC3AE1C9BF16200B2CBB7 /* Tickets.storyboard */,
 				F24F686E1C9BDAC100D8A3F9 /* LaunchScreen.storyboard */,
 				F24F68961C9BE26800D8A3F9 /* Controllers */,
 				F24F68971C9BE26800D8A3F9 /* Helpers */,
@@ -364,11 +364,11 @@
 				F2AAC39F1C9BE8C400B2CBB7 /* Montserrat-Black.otf in Resources */,
 				F2AAC3A41C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf in Resources */,
 				F2AAC3A51C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf in Resources */,
+				F2AAC3AF1C9BF16200B2CBB7 /* Tickets.storyboard in Resources */,
 				F2AAC3A31C9BE8C400B2CBB7 /* Montserrat-Regular.otf in Resources */,
 				F24F68701C9BDAC100D8A3F9 /* LaunchScreen.storyboard in Resources */,
 				F24F686D1C9BDAC100D8A3F9 /* Assets.xcassets in Resources */,
 				F2AAC3A21C9BE8C400B2CBB7 /* Montserrat-Light.otf in Resources */,
-				F24F686B1C9BDAC100D8A3F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,15 +480,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F24F68691C9BDAC100D8A3F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F24F686A1C9BDAC100D8A3F9 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		F24F686E1C9BDAC100D8A3F9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
