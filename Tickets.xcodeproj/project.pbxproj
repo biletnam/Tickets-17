@@ -21,6 +21,7 @@
 		F2AAC3A41C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39C1C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf */; };
 		F2AAC3A51C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39D1C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf */; };
 		F2AAC3A61C9BE8C400B2CBB7 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2AAC39E1C9BE8C400B2CBB7 /* SIL Open Font License.txt */; };
+		F2AAC3A91C9BED9900B2CBB7 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AAC3A81C9BED9900B2CBB7 /* SSASideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F2AAC39C1C9BE8C400B2CBB7 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
 		F2AAC39D1C9BE8C400B2CBB7 /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
 		F2AAC39E1C9BE8C400B2CBB7 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		F2AAC3A81C9BED9900B2CBB7 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 		F24F68981C9BE26800D8A3F9 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				F2AAC3A71C9BED9900B2CBB7 /* SSASideMenu */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -208,6 +211,14 @@
 				F2AAC39E1C9BE8C400B2CBB7 /* SIL Open Font License.txt */,
 			);
 			path = "Montserrat Font";
+			sourceTree = "<group>";
+		};
+		F2AAC3A71C9BED9900B2CBB7 /* SSASideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAC3A81C9BED9900B2CBB7 /* SSASideMenu.swift */,
+			);
+			path = SSASideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F24F689B1C9BE26800D8A3F9 /* AppDelegate.swift in Sources */,
+				F2AAC3A91C9BED9900B2CBB7 /* SSASideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
