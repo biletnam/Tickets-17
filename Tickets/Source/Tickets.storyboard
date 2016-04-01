@@ -1,27 +1,166 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BhS-QC-QJF">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+            <string>Montserrat-Light</string>
+        </mutableArray>
+        <mutableArray key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="yOZ-cS-Zj3">
             <objects>
-                <viewController id="eLA-Mz-aoX" sceneMemberID="viewController">
+                <viewController id="eLA-Mz-aoX" customClass="WelcomeViewController" customModule="Tickets" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xBJ-pC-SPQ"/>
                         <viewControllerLayoutGuide type="bottom" id="Q3A-lo-YxC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="20d-7P-UhM">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main-background" translatesAutoresizingMaskIntoConstraints="NO" id="tGd-eg-ZoZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rgO-qc-Sgt">
+                                <rect key="frame" x="20" y="64" width="335" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" alignment="firstBaseline" translatesAutoresizingMaskIntoConstraints="NO" id="tIg-fz-1hz">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="467"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_tickets" translatesAutoresizingMaskIntoConstraints="NO" id="CT0-bY-7lJ">
+                                                <rect key="frame" x="0.0" y="100" width="335" height="231"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="CT0-bY-7lJ" firstAttribute="top" secondItem="tIg-fz-1hz" secondAttribute="top" constant="100" id="UAD-2l-bM9"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3aJ-S8-Kkv">
+                                        <rect key="frame" x="0.0" y="477" width="335" height="47"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-TI-aoq">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="47"/>
+                                                <color key="backgroundColor" red="0.67369518979057585" green="0.67369518979057585" blue="0.67369518979057585" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="47" id="xhX-tI-0VU"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                                <state key="normal" title="Sign Up">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="HjK-TI-aoq" firstAttribute="leading" secondItem="3aJ-S8-Kkv" secondAttribute="leading" id="O7t-qG-Tbq"/>
+                                            <constraint firstAttribute="trailing" secondItem="HjK-TI-aoq" secondAttribute="trailing" id="QqS-f8-UbV"/>
+                                            <constraint firstItem="HjK-TI-aoq" firstAttribute="top" secondItem="3aJ-S8-Kkv" secondAttribute="top" id="q8o-Y1-XGJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="HjK-TI-aoq" secondAttribute="bottom" id="zB5-Jj-ZEK"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="O7t-qG-Tbq"/>
+                                                <exclude reference="QqS-f8-UbV"/>
+                                                <exclude reference="q8o-Y1-XGJ"/>
+                                                <exclude reference="zB5-Jj-ZEK"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DNU-qJ-GTd">
+                                        <rect key="frame" x="0.0" y="534" width="335" height="69"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="230" translatesAutoresizingMaskIntoConstraints="NO" id="wV2-MU-hy2">
+                                                <rect key="frame" x="0.0" y="0.0" width="230" height="69"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="230" id="2cX-GK-iug"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="14"/>
+                                                <color key="textColor" red="0.56497464005235609" green="0.56497464005235609" blue="0.56497464005235609" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOL-Wp-G0e">
+                                                <rect key="frame" x="230" y="0.0" width="105" height="69"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="105" id="yIC-BO-ZVR"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="14"/>
+                                                <state key="normal" title="Sign In">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="69" id="0Nc-8s-yHO"/>
+                                            <constraint firstItem="wV2-MU-hy2" firstAttribute="top" secondItem="DNU-qJ-GTd" secondAttribute="top" id="DR2-fs-bAw"/>
+                                            <constraint firstAttribute="bottom" secondItem="WOL-Wp-G0e" secondAttribute="bottom" id="JCM-ZQ-TO6"/>
+                                            <constraint firstAttribute="bottom" secondItem="wV2-MU-hy2" secondAttribute="bottom" id="Vcg-Sh-RBR"/>
+                                            <constraint firstItem="WOL-Wp-G0e" firstAttribute="top" secondItem="DNU-qJ-GTd" secondAttribute="top" id="YxH-79-dWc"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="DNU-qJ-GTd" secondAttribute="trailing" id="5Mw-gK-uSE"/>
+                                    <constraint firstAttribute="trailing" secondItem="tIg-fz-1hz" secondAttribute="trailing" id="64l-He-Jgn"/>
+                                    <constraint firstItem="3aJ-S8-Kkv" firstAttribute="leading" secondItem="rgO-qc-Sgt" secondAttribute="leading" id="6te-9k-VQb"/>
+                                    <constraint firstItem="tIg-fz-1hz" firstAttribute="leading" secondItem="rgO-qc-Sgt" secondAttribute="leading" id="LaY-Yz-4YR"/>
+                                    <constraint firstItem="tIg-fz-1hz" firstAttribute="top" secondItem="rgO-qc-Sgt" secondAttribute="top" id="dqg-Ia-oL2"/>
+                                    <constraint firstAttribute="trailing" secondItem="3aJ-S8-Kkv" secondAttribute="trailing" id="ihd-XU-Bju"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5Mw-gK-uSE"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rgO-qc-Sgt" firstAttribute="leading" secondItem="20d-7P-UhM" secondAttribute="leading" constant="20" id="ByN-xk-Hd8"/>
+                            <constraint firstAttribute="trailing" secondItem="rgO-qc-Sgt" secondAttribute="trailing" constant="20" id="Cf2-Yr-caP"/>
+                            <constraint firstItem="tGd-eg-ZoZ" firstAttribute="top" secondItem="20d-7P-UhM" secondAttribute="top" id="Qtn-Qc-Hpv"/>
+                            <constraint firstItem="Q3A-lo-YxC" firstAttribute="top" secondItem="tGd-eg-ZoZ" secondAttribute="bottom" id="ax6-Fz-4fH"/>
+                            <constraint firstItem="tGd-eg-ZoZ" firstAttribute="leading" secondItem="20d-7P-UhM" secondAttribute="leading" id="drS-aF-UwF"/>
+                            <constraint firstItem="Q3A-lo-YxC" firstAttribute="top" secondItem="rgO-qc-Sgt" secondAttribute="bottom" id="mrC-J6-25u"/>
+                            <constraint firstAttribute="trailing" secondItem="tGd-eg-ZoZ" secondAttribute="trailing" id="vKT-q7-V2f"/>
+                            <constraint firstItem="rgO-qc-Sgt" firstAttribute="top" secondItem="xBJ-pC-SPQ" secondAttribute="bottom" id="zln-6e-57N"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="AVp-qG-VoV"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cVG-Qv-x7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="386" y="424"/>
+            <point key="canvasLocation" x="825.5" y="460.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d4G-st-fwg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BhS-QC-QJF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ji2-4H-Kp9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eLA-Mz-aoX" kind="relationship" relationship="rootViewController" id="bOP-RO-eGx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pG5-c3-1Kw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="461"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo_tickets" width="379" height="231"/>
+        <image name="main-background" width="621" height="1104"/>
+    </resources>
 </document>
